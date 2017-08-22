@@ -154,6 +154,8 @@
 	</dict>
 	<key>variables</key>
 	<dict>
+		<key>CACHER_API_HOST</key>
+		<string>http://api.cacher.dev</string>
 		<key>CACHER_API_KEY</key>
 		<string>0bc58a71c9ce9f0572bd</string>
 		<key>CACHER_API_TOKEN</key>

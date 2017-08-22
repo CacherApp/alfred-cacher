@@ -1,10 +1,11 @@
 const alfy = require('alfy');
 const Fuse = require('fuse.js');
 
-const CACHER_API = 'http://api.cacher.dev';
-const CACHE_MAX_AGE = 1000 * 5;
+const CACHER_API_HOST = process.env['CACHER_API_HOST'] || 'https://api.cacher.io';
 const API_KEY = process.env['CACHER_API_KEY'];
 const API_TOKEN = process.env['CACHER_API_TOKEN'];
+
+const CACHE_MAX_AGE = 1000 * 5;
 
 const FETCH_OPTIONS = {
     headers: {
@@ -20,7 +21,7 @@ if (!API_KEY || !API_TOKEN) {
 }
 
 alfy.fetch(
-    `${CACHER_API}/integrations/show_all?user_id=21`,
+    `${CACHER_API_HOST}/integrations/show_all`,
     FETCH_OPTIONS
 ).then(data => {
     let teamSnippets = data.teams.reduce((allSnippets, team) => {
