@@ -1,8 +1,8 @@
 const alfy = require('alfy');
+const Fuse = require('fuse.js');
+
 const CACHER_API = 'http://api.cacher.dev';
-
-const CACHE_MAX_AGE = 1000 * 60;
-
+const CACHE_MAX_AGE = 1000 * 5;
 const API_KEY = process.env['CACHER_API_KEY'];
 const API_TOKEN = process.env['CACHER_API_TOKEN'];
 
@@ -29,21 +29,39 @@ alfy.fetch(
 
     let allSnippets = data.personalLibrary.snippets.concat(teamSnippets);
 
-    const items = alfy
-        .inputMatches(allSnippets, 'title')
-        .map(x => {
-            let firstFile = x.files[0];
-            let firstFileContent = firstFile.content;
+    let options = {
+        threshold: 0.6,
+        location: 0,
+        distance: 100,
+        maxPatternLength: 30,
+        minMatchCharLength: 1,
+        shouldSort: false,
+        keys: [
+            {
+                name: 'title',
+                weight: 0.9
+            },
+            {
+                name: 'description',
+                weight: 0.1
+            }
+        ]
+    };
 
-            return {
-                title: x.title,
-                subtitle: firstFileContent,
-                text: {
-                    copy: firstFileContent
-                },
-                arg: firstFileContent
-            };
-        });
+    let fuse = new Fuse(allSnippets, options);
+    const items = fuse.search(alfy.input).map(x => {
+        let firstFile = x.files[0];
+        let firstFileContent = firstFile.content;
+
+        return {
+            title: x.title,
+            subtitle: firstFileContent,
+            text: {
+                copy: firstFileContent
+            },
+            arg: firstFileContent
+        };
+    });
 
     alfy.output(items);
 });
