@@ -85,7 +85,7 @@
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>argumenttrimmode</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -97,9 +97,9 @@
 				<key>queuedelayimmediatelyinitially</key>
 				<true/>
 				<key>queuedelaymode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>queuemode</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>runningsubtext</key>
 				<string>Searching...</string>
 				<key>script</key>
@@ -112,7 +112,7 @@
 				<key>subtext</key>
 				<string>From your Cacher library</string>
 				<key>title</key>
-				<string>Find snippet by keyword</string>
+				<string>Find snippet by title</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
