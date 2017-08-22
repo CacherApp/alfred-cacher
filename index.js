@@ -35,7 +35,7 @@ alfy.fetch(
         distance: 100,
         maxPatternLength: 30,
         minMatchCharLength: 1,
-        shouldSort: false,
+        shouldSort: true,
         keys: [
             {
                 name: 'title',
@@ -57,7 +57,8 @@ alfy.fetch(
             title: x.title,
             subtitle: firstFileContent,
             text: {
-                copy: firstFileContent
+                copy: firstFileContent,
+                largetype: x.description
             },
             arg: firstFileContent
         };
