@@ -20,7 +20,7 @@ $ npm install --global @cacherapp/alfred-cacher
 
 ### Step 2
 
-Open up Cacher and click on the "Apps" icon in the top bar:
+Open Cacher and click on the "Apps" icon in the top bar:
 
 [screen]
 
@@ -38,7 +38,8 @@ Note the API Key and Token in the footer.
 
 ## Usage
 
-In Alfred, type `snip [keywords]` and press <kbd>Enter</kdd>.
+In Alfred, type `snip [keywords]` and wait for results to return. Select a snippet and press <kbd>Enter</kdd> to copy
+its contents to the clipboard.
 
 ## Libraries Used
 
