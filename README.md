@@ -22,11 +22,13 @@ $ npm install --global @cacherapp/alfred-cacher
 
 Open Cacher and click on the "Apps" icon in the top bar:
 
-[screen]
+![Get API Key and Token](/media/get-key-token.gif "Get API Key and Token")
 
 Note the API Key and Token in the footer.  
 
 ### Step 3
+
+[screen]
 
 1. Open Alfred Preferences. 
 2. Click on the "Workflows" tab and find Cacher.
