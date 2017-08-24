@@ -40,7 +40,7 @@ Note the API Key and Token in the footer.
 
 ## Usage
 
-In Alfred, type `snip [keywords]` and wait for results to return. Select a snippet and press <kbd>Enter</kdd> to copy
+In Alfred, type `snip [keywords]` and wait for results to return. Select a snippet and press <kbd>Enter</kbd> to copy
 its contents to the clipboard.
 
 ## Libraries Used
