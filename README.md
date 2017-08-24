@@ -28,7 +28,7 @@ Note the API Key and Token in the footer.
 
 ### Step 3
 
-[screen]
+![Set Environment Variables](/media/alfred-env-vars.gif "Set Environment Variables")
 
 1. Open Alfred Preferences. 
 2. Click on the "Workflows" tab and find Cacher.

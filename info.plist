@@ -189,12 +189,10 @@ GitHub repo at: https://github.com/CacherApp/alfred-cacher</string>
 	</dict>
 	<key>variables</key>
 	<dict>
-		<key>CACHER_API_HOST</key>
-		<string>http://api.cacher.dev</string>
 		<key>CACHER_API_KEY</key>
-		<string>0bc58a71c9ce9f0572bd</string>
+		<string></string>
 		<key>CACHER_API_TOKEN</key>
-		<string>9e883751901ad012705404a228794fc2b61e</string>
+		<string></string>
 	</dict>
 	<key>version</key>
 	<string></string>
