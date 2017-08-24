@@ -16,7 +16,7 @@ software developers. [Sign up for a free account](https://www.cacher.io).
 
 ### Step 1
 
-Run the following shell from a Terminal window.
+Run the following shell command from a Terminal window.
 
 ```bash
 npm install --global @cacherapp/alfred-cacher
