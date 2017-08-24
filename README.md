@@ -20,11 +20,12 @@ $ npm install --global @cacherapp/alfred-cacher
 
 ### Step 2
 
-Open Cacher and click on the "Apps" icon in the top bar:
+
 
 ![Get API Key and Token](/media/get-key-token.gif "Get API Key and Token")
 
-Note the API Key and Token in the footer.  
+1. Open Cacher and click on the "Apps" icon in the top bar.
+2. Note the API Key and Token in the footer.  
 
 ### Step 3
 
@@ -48,3 +49,6 @@ its contents to the clipboard.
 - [alfy](https://github.com/sindresorhus/alfy) - Create Alfred Workflows using Node
 - [Fuse.js](https://github.com/krisk/Fuse) - Lightweight fuzzy-search
 
+## License
+
+MIT
