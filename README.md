@@ -24,14 +24,12 @@ npm install --global @cacherapp/alfred-cacher
 
 ### Step 2
 
+1. Open Cacher and click on the "Apps" icon in the top bar.
+2. Note the API Key and Token in the footer.
+
 ![Get API Key and Token](/media/get-key-token.gif "Get API Key and Token")
 
-1. Open Cacher and click on the "Apps" icon in the top bar.
-2. Note the API Key and Token in the footer.  
-
 ### Step 3
-
-![Set Environment Variables](/media/alfred-env-vars.gif "Set Environment Variables")
 
 1. Open Alfred Preferences. 
 2. Click on the "Workflows" tab and find Cacher.
@@ -40,6 +38,8 @@ npm install --global @cacherapp/alfred-cacher
     - `CACHER_API_KEY`: `[API Key from Step 2]`
     - `CACHER_API_TOKEN`: `[API Token from Step 2]`
 5. Click "Save"
+
+![Set Environment Variables](/media/alfred-env-vars.gif "Set Environment Variables")
 
 ## Usage
 
