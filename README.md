@@ -7,20 +7,22 @@
 
 - [Alfred 3 for Mac](https://www.alfredapp.com/)
 
-- You have registered as a user at [cacher.io](https://www.cacher.io). Cacher is a code snippet organizer for 
-software developers. [Click here to sign up for a free account](https://www.cacher.io).
+- [Node.js](https://nodejs.org/en/download/)
+
+- You are registered as a user at [cacher.io](https://www.cacher.io). Cacher is a code snippet organizer for 
+software developers. [Sign up for a free account](https://www.cacher.io).
 
 ## Install
 
 ### Step 1
+
+Run the following from a terminal.
 
 ```bash
 $ npm install --global @cacherapp/alfred-cacher
 ```
 
 ### Step 2
-
-
 
 ![Get API Key and Token](/media/get-key-token.gif "Get API Key and Token")
 
@@ -49,6 +51,3 @@ its contents to the clipboard.
 - [alfy](https://github.com/sindresorhus/alfy) - Create Alfred Workflows using Node
 - [Fuse.js](https://github.com/krisk/Fuse) - Lightweight fuzzy-search
 
-## License
-
-MIT
