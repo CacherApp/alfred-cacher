@@ -1,7 +1,7 @@
 # alfred-cacher
 > Alfred Workflow for finding a snippet from your [Cacher](https://www.cacher.io) library. 
 
-[screen]
+![Demo](/media/demo.gif "Demo")
 
 ## Prerequisites
 
