@@ -19,7 +19,7 @@ software developers. [Sign up for a free account](https://www.cacher.io).
 Run the following shell command from a Terminal window.
 
 ```bash
-npm install --global @cacherapp/alfred-cacher
+npm install --global alfred-cacher
 ```
 
 ### Step 2
