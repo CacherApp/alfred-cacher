@@ -25,5 +25,8 @@
     "dependencies": {
         "alfy": "^0.6.0",
         "fuse.js": "^3.0.5"
+    },
+    "devDependencies": {
+        "aws-sdk": "^2.103.0"
     }
 }
