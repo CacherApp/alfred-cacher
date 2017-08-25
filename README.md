@@ -12,7 +12,7 @@
 - You are registered as a user at [cacher.io](https://www.cacher.io). Cacher is a code snippet organizer for 
 software developers. [Sign up for a free account](https://www.cacher.io).
 
-## Install
+## Installation
 
 ### Step 1
 
