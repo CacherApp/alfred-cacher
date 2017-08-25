@@ -1,0 +1,32 @@
+{
+    "name": "@cacherapp/alfred-cacher",
+    "version": "1.0.0",
+    "description": "Alfred workflow for finding snippets from your Cacher.io library.",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "postinstall": "alfy-init",
+        "preuninstall": "alfy-cleanup"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CacherApp/alfred-cacher.git"
+    },
+    "author": {
+        "name": "Cacher by Penguin Labs, LLC",
+        "email": "support@cacher.io",
+        "url": "https://www.cacher.io"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CacherApp/alfred-cacher/issues"
+    },
+    "homepage": "https://github.com/CacherApp/alfred-cacher#readme",
+    "dependencies": {
+        "alfy": "^0.6.0",
+        "fuse.js": "^3.0.5"
+    },
+    "devDependencies": {
+        "aws-sdk": "^2.103.0"
+    }
+}

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>io.cacher.snippets</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>114C0047-5550-4978-94BA-B3A14B3CD9C4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AB482C00-B7EF-4840-881B-1EDB9D059D41</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AB482C00-B7EF-4840-881B-1EDB9D059D41</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2A61C761-1100-44C9-A192-D6601FE9A0E7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Cacher by Penguin Labs, LLC</string>
+	<key>description</key>
+	<string>Alfred workflow for finding snippets from your Cacher.io library.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Cacher</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>AB482C00-B7EF-4840-881B-1EDB9D059D41</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Snippet copied to clipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>2A61C761-1100-44C9-A192-D6601FE9A0E7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>1</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>snip</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Searching...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1"
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>From your Cacher library</string>
+				<key>title</key>
+				<string>Find snippet by title</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>114C0047-5550-4978-94BA-B3A14B3CD9C4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Cacher Workflow for Alfred
+==========================
+
+Cacher is a code snippet organizer for software developers. Sign up for a free account at https://www.cacher.io.
+
+* Find a snippet using keywords and copy its contents to the clipboard
+* Searches across both personal and team snippet libraries
+
+
+Setup
+-----
+
+1. Open Cacher and click on the "Apps" icon in the top bar. Note the API Key and Token in the footer.
+2. Open Alfred Preferences.
+3. Click on the "Workflows" tab and find Cacher.
+4. Click on the "Configure workflow and variables" button.
+5. Add the following under Workflow Environment Variables:
+    - `CACHER_API_KEY`: `[API Key from Step 2]`
+    - `CACHER_API_TOKEN`: `[API Token from Step 2]`
+5. Click "Save"
+
+
+Usage
+-----
+
+In Alfred, type `snip [keywords]` and wait for results to return. Select a snippet and press "Enter" to copy its contents to the clipboard.
+
+
+Source Code
+-----------
+
+GitHub repo at: https://github.com/CacherApp/alfred-cacher</string>
+	<key>uidata</key>
+	<dict>
+		<key>114C0047-5550-4978-94BA-B3A14B3CD9C4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>160</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
+		<key>2A61C761-1100-44C9-A192-D6601FE9A0E7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>580</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
+		<key>AB482C00-B7EF-4840-881B-1EDB9D059D41</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>CACHER_API_KEY</key>
+		<string></string>
+		<key>CACHER_API_TOKEN</key>
+		<string></string>
+	</dict>
+	<key>version</key>
+	<string></string>
+	<key>webaddress</key>
+	<string>https://www.cacher.io</string>
+</dict>
+</plist>
