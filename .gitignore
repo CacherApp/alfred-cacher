@@ -3,3 +3,8 @@
 
 # NPM
 node_modules
+
+# Ignored directories
+build
+scripts
+*.alfredworkflow
