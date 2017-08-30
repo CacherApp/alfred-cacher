@@ -53,4 +53,4 @@ its contents to the clipboard.
 
 ## Author / License
 
-Released under the [MIT License](/blob/master/LICENSE) by [Rui Jiang](https://github.com/jookyboi) of [Cacher](https://www.cacher.io).
+Released under the [MIT License](/LICENSE) by [Rui Jiang](https://github.com/jookyboi) of [Cacher](https://www.cacher.io).
