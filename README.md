@@ -51,3 +51,6 @@ its contents to the clipboard.
 - [alfy](https://github.com/sindresorhus/alfy) - Create Alfred Workflows using Node
 - [Fuse.js](https://github.com/krisk/Fuse) - Lightweight fuzzy-search
 
+## Author / License
+
+Released under the [MIT License](/blob/master/LICENSE) by [Rui Jiang](https://github.com/jookyboi) of [Cacher](https://www.cacher.io).
