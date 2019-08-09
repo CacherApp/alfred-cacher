@@ -36,7 +36,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Cacher by Penguin Labs, LLC</string>
+	<string>Cacher</string>
 	<key>description</key>
 	<string>Alfred workflow for finding snippets from your Cacher.io library.</string>
 	<key>disabled</key>
