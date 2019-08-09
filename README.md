@@ -27,7 +27,7 @@ npm install --global alfred-cacher
 1. View your API credentials at: [app.cacher.io/enter?action=view_api_creds](https://app.cacher.io/enter?action=view_api_creds)
 2. You should see a dialog open with your **API KEY** and **API TOKEN**.
 
-<img src="media/api-credentials.png" alt=""API Credentials" width="600" />
+<img src="media/api-credentials.png" alt="API Credentials" width="600" />
 
 ### Step 3
 
