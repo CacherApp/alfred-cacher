@@ -23,8 +23,10 @@
     },
     "homepage": "https://github.com/CacherApp/alfred-cacher#readme",
     "dependencies": {
-        "alfy": "^0.6.0",
-        "fuse.js": "^3.0.5"
+        "alfy": "^0.9.0",
+        "deep-extend": ">=0.5.1",
+        "fuse.js": "^3.0.5",
+        "lodash": ">=4.17.13"
     },
     "devDependencies": {
         "aws-sdk": "^2.103.0"
