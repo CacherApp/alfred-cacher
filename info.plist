@@ -143,7 +143,7 @@ Cacher is a code snippet organizer for software developers. Sign up for a free a
 Setup
 -----
 
-1. Open Cacher and click on the "Apps" icon in the top bar. Note the API Key and Token in the footer.
+1. Open Cacher to view your credentials: https://app.cacher.io/enter?action=view_api_creds
 2. Open Alfred Preferences.
 3. Click on the "Workflows" tab and find Cacher.
 4. Click on the "Configure workflow and variables" button.
