@@ -1,6 +1,6 @@
 {
     "name": "alfred-cacher",
-    "version": "1.0.4",
+    "version": "1.0.3",
     "description": "Alfred workflow for finding snippets from your Cacher.io library.",
     "main": "index.js",
     "scripts": {
