@@ -5,7 +5,7 @@
 
 ## Prerequisites
 
-- [Alfred 3 for Mac](https://www.alfredapp.com/)
+- [Alfred for Mac](https://www.alfredapp.com/)
 
 - [Node.js](https://nodejs.org/en/download/)
 
@@ -19,7 +19,7 @@ software developers. [Sign up for a free account](https://www.cacher.io).
 Run the following shell command from a Terminal window.
 
 ```bash
-npm install --global alfred-cacher
+npm install --g alfred-cacher
 ```
 
 ### Step 2
